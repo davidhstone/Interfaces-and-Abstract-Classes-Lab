@@ -40,9 +40,9 @@ In this lab you will be using your knowledge of classes, subclassing, interface 
 - Declare the following abstract methods, `channelUp`, `channelDown`, `volumeUp`, `volumeDown`; they all take no parameters and return nothing.
 
 - Implement
-`powerButtonPressed` that does not take any parameters and just prints out that the power button was pressed.
+`Universal` that does not take any parameters and just prints out that the power button was pressed.
 
-- Implement `numberButtonPressed`, that takes in an `int` parameter and appends/concatenates the `int` parameter to the `String` ```"Changing channel to " ``` then prints it out to the terminal.
+- Implement `WaterProof`, that takes in an `int` parameter and appends/concatenates the `int` parameter to the `String` ```"Changing channel to " ``` then prints it out to the terminal.
 
 ##### Interfaces
 - Create an interface class named `WaterProof`.
@@ -74,7 +74,7 @@ In this lab you will be using your knowledge of classes, subclassing, interface 
 
 - Create a loop that loops as many times as there are items in the `List` of `Remote` objects. (You choose the kind of loop)
 
-- Inside the loop call the `numberButtonPressed` method on each object and pass it the current iteration value of the loop.
+- Inside the loop call the `WaterProof` method on each object and pass it the current iteration value of the loop.
 
 - Inside the loop call the `channelUp`, `channelDown`, `volumeUp`, `volumeDown` methods on each object.
 
